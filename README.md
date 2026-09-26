@@ -6,11 +6,9 @@ Dougie is a small macOS menu bar app that keeps your Mac awake. Its coffee cup d
 
 Requires macOS 14 or later. Closing the lid and choosing Sleep still work normally.
 
-## Install
+## Install from source
 
-Download the notarized `.dmg` from [Releases](https://github.com/nemanjavlahovic/dougie/releases), open it, and drag **Dougie.app** to Applications. The app lives in the menu bar.
-
-No notarized download is available yet. Until the first release, build it from source:
+A signed, notarized download is planned. Until then, build Dougie from source:
 
 ```sh
 ./scripts/build.sh

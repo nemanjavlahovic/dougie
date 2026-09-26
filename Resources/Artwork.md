@@ -2,6 +2,8 @@
 
 `demo.gif` is rendered from the app by `scripts/make-demo.sh`. It shows a shortened timer and refill using the current interface; no third-party footage is included.
 
+The app icon is drawn by `scripts/make-icon.swift` from the cup artwork, with a simplified cup mark for small icon sizes.
+
 `Sources/Dougie/Assets/lludix-cup.png` is the transparent 1254 × 1254 source image used by `CoffeeCupView`. It was produced with the built-in image-generation tool on 2026-09-16 using the user's chosen product as a design reference.
 
 Reference: [SKLUM Lludix stainless-steel cup and saucer](https://www.sklum.com/es/comprar-tazas/223697-pack-de-2-tazas-de-cafe-17-cl-con-plato-en-acero-inoxidable-lludix.html?id_c=662144). The original retailer photos are reference inputs and are not bundled in the app.
