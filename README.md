@@ -2,6 +2,8 @@
 
 Dougie is a small macOS menu bar app that keeps your Mac awake. Its coffee cup drains with the timer; refill it to start again. Click the cup to stir it.
 
+<p><img src="Resources/demo.gif" width="360" alt="Dougie menu bar panel turning on, showing the coffee timer drain, then refilling the cup."></p>
+
 Requires macOS 14 or later. Closing the lid and choosing Sleep still work normally.
 
 ## Install

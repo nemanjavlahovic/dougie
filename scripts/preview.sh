@@ -13,4 +13,4 @@ swiftc -Xfrontend -disable-sandbox -parse-as-library -I "$binary_dir/Modules" \
     Sources/Dougie/AwakePanel.swift Sources/Dougie/LoginSettings.swift Sources/Dougie/CoffeeCup.swift Sources/Dougie/CoffeeStir.swift \
     "$binary_dir/Dougie.build/DerivedSources/resource_bundle_accessor.swift" \
     scripts/render-panel.swift "$binary_dir"/DougieCore.build/*.swift.o -o "$scratch_dir/render-panel"
-"$scratch_dir/render-panel" "$preview_dir"
+"$scratch_dir/render-panel" "$preview_dir" "${@:2}"
